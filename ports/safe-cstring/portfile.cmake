@@ -3,8 +3,7 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO essenius/safe-cstring
-    REF 
-    SHA512 
+    REF c226a79c9cd9070dafc3b341c120b6e3f819ba11
     HEAD_REF main
 )
 
