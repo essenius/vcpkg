@@ -1,0 +1,5 @@
+{
+  "default": {
+    "safe-cstring": { "baseline": "0.5.0", "port-version": 0 }
+  }
+}
