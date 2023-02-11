@@ -5,7 +5,7 @@ vcpkg_from_github(
     REPO essenius/safe-cstring
     REF 
     SHA512 
-    HEAD_REF master
+    HEAD_REF main
 )
 
 file(INSTALL "${SOURCE_PATH}/SaveCString.h"  DESTINATION "${CURRENT_PACKAGES_DIR}/include")
