@@ -1,6 +1,6 @@
 {
   "name": "safe-cstring",
-  "version": "0.6.0",
+  "version": "0.6.3",
   "description": "A safer replacement for strcpy, strcat, and sprintf",
   "homepage": "https://github.com/essenius/safe-cstring",
   "license": "Apache-2.0"
