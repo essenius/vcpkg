@@ -4,25 +4,32 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO essenius/Matrix
     #REF "${VERSION}"
-    REF "804bf1bcbc6b7bb8391d7603df4b96499827c427"
-    SHA512 0
+    REF "20a7af2a35386ffd9ef27749172395fb3a95e76c"
+    SHA512 fb2e5bb2e73da82ee14dcf50583a5b86ce894d0f8e8a27d5592d56359fd1d0799e74e1d0e12f4ada4f90f12a03937c40c7c59232f75267e09f983070fef1ecbe
     HEAD_REF main
 )
 
 # find git
-vcpkg_find_acquire_program(
-    GIT
-)
-get_filename_component(GIT_EXE_PATH ${GIT} DIRECTORY)
-vcpkg_add_to_path(${GIT_EXE_PATH})
-
+#vcpkg_find_acquire_program(
+#    GIT
+#)
+#get_filename_component(GIT_EXE_PATH ${GIT} DIRECTORY)
+#vcpkg_add_to_path(${GIT_EXE_PATH})
 
 vcpkg_cmake_configure( 
     SOURCE_PATH "${SOURCE_PATH}" 
 )
 
+MESSAGE(STATUS "Port: ${PORT}")
+MESSAGE(STATUS "Install dir: ${CURRENT_INSTALLED_DIR}")
+MESSAGE(STATUS "Packages dir: ${CURRENT_PACKAGES_DIR}")
+MESSAGE(STATUS "Import prefix: ${_IMPORT_PREFIX} / ${VCPKG_IMPORT_PREFIX}")
+MESSAGE(STATUS "Build type: ${VCPKG_BUILD_TYPE} / ${CMAKE_BUILD_TYPE}")
+
 vcpkg_cmake_install()
 
-vcpkg_cmake_config_fixup(PACKAGE_NAME "rix-matrix")
+#vcpkg_cmake_config_fixup(PACKAGE_NAME ${PORT})
+
+vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
