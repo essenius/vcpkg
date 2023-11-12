@@ -4,7 +4,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO essenius/Matrix
     #REF "${VERSION}"
-    REF "ddb097ff3c0721c602f39d429f0c4b119ece23ad"
+    REF "804bf1bcbc6b7bb8391d7603df4b96499827c427"
     SHA512 0
     HEAD_REF main
 )
