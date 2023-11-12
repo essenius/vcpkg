@@ -1,5 +1,7 @@
 # header-only library
 
+message(STATUS "Adding safe-cstring at source path ${SOURCE_PATH}")
+
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO essenius/safe-cstring

@@ -3,5 +3,15 @@
   "version": "0.1.0",
   "description": "Simple matrix library for ESP32 usage",
   "homepage": "https://github.com/essenius/Matrix",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
 }
