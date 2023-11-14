@@ -20,15 +20,17 @@ vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}" 
 )
 
-MESSAGE(STATUS "Port: ${PORT}")
-MESSAGE(STATUS "Install dir: ${CURRENT_INSTALLED_DIR}")
-MESSAGE(STATUS "Packages dir: ${CURRENT_PACKAGES_DIR}")
-MESSAGE(STATUS "Import prefix: ${_IMPORT_PREFIX} / ${VCPKG_IMPORT_PREFIX}")
-MESSAGE(STATUS "Build type: ${VCPKG_BUILD_TYPE} / ${CMAKE_BUILD_TYPE}")
+#get_cmake_property(_variableNames VARIABLES)
+#list (SORT _variableNames)
+#foreach (_variableName ${_variableNames})
+#    message(STATUS "${_variableName}=${${_variableName}}")
+#endforeach()
 
 vcpkg_cmake_install()
 
-#vcpkg_cmake_config_fixup(PACKAGE_NAME ${PORT})
+#vcpkg_cmake_config_fixup()
+
+#vcpkg_copy_pdbs()
 
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
 
