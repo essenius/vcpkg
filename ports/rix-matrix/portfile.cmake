@@ -4,7 +4,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO essenius/Matrix
     #REF "${VERSION}"
-    REF "20a7af2a35386ffd9ef27749172395fb3a95e76c"
+    REF "ca227a4b1a470f8925ca9736f9b9ad37f87d309a"
     SHA512 fb2e5bb2e73da82ee14dcf50583a5b86ce894d0f8e8a27d5592d56359fd1d0799e74e1d0e12f4ada4f90f12a03937c40c7c59232f75267e09f983070fef1ecbe
     HEAD_REF main
 )
@@ -28,7 +28,7 @@ vcpkg_cmake_configure(
 
 vcpkg_cmake_install()
 
-vcpkg_cmake_config_fixup()
+#vcpkg_cmake_config_fixup()
 
 #vcpkg_copy_pdbs()
 
