@@ -7,7 +7,7 @@
     "dependencies": [
       {
         "name": "safe-cstring",
-        "version": "0.6.3",
+        "version>=": "0.6.3",
         "host": true
       },
       {
