@@ -2,7 +2,7 @@
   "default": {
     "ellipse-fit": { "baseline": "0.2.0", "port-version": 0 },
     "esp32-mock": { "baseline": "0.1.0", "port-version": 0 },
-    "rix-matrix": { "baseline": "0.1.0", "port-version": 0 },
+    "rix-matrix": { "baseline": "0.2.0", "port-version": 0 },
     "safe-cstring": { "baseline": "0.6.3", "port-version": 0 }
   }
 }

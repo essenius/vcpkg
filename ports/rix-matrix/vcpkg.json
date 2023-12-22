@@ -1,6 +1,6 @@
 {
   "name": "rix-matrix",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Simple matrix library for ESP32 usage",
   "homepage": "https://github.com/essenius/Matrix",
   "license": "Apache-2.0",
