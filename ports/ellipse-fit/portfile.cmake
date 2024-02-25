@@ -3,18 +3,19 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO essenius/EllipseFit
-    REF "1bea8eef11770fec864a4093eb2d56e7ac39dac3"
-    SHA512 0839d5cc0e3b5d9f0515f97603ff24268d31b82cadca9f83bb3399d28fbf9c516499eb9225efd292f715212545625b1d5e40c2b222b9558e87672afc7c4cbec1
+    REF "b29ac47abeabea440a4fa0ae0a67b854a98cbe88"
+    SHA512 70c588b278816b7c79dcf32c9cb537d2bf099902d918a2aad7a37c70fb029487121cb109abdcecbf08bcade0941ec9e3020722a9bbbdeb1e912cf5332e1d0dd2
     HEAD_REF main
 )
 
 # find git
-vcpkg_find_acquire_program(
-    GIT
-)
 
-get_filename_component(GIT_EXE_PATH ${GIT} DIRECTORY)
-vcpkg_add_to_path(${GIT_EXE_PATH})
+# vcpkg_find_acquire_program(
+#    GIT
+#)
+
+# get_filename_component(GIT_EXE_PATH ${GIT} DIRECTORY)
+# vcpkg_add_to_path(${GIT_EXE_PATH})
 
 vcpkg_cmake_configure( 
     SOURCE_PATH "${SOURCE_PATH}" 
