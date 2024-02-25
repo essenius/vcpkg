@@ -15,11 +15,6 @@ vcpkg_cmake_configure(
 
 get_cmake_property(_variableNames VARIABLES)
 
-list (SORT _variableNames)
-foreach (_variableName ${_variableNames})
-    message(STATUS "p: ${_variableName}=${${_variableName}}\n")
-endforeach()
-
 vcpkg_cmake_install()
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
