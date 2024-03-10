@@ -1,6 +1,6 @@
 {
     "name": "ellipse-fit",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "Fit a series of data points to an ellipse",
     "homepage": "https://github.com/essenius/Matrix",
     "license": "Apache-2.0",
@@ -8,7 +8,7 @@
       {
         "name": "rix-matrix",
         "version>=": "0.2.2",
-        "host": true
+        "host": false
       },
       {
         "name": "vcpkg-cmake",
