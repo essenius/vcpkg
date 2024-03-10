@@ -5,8 +5,8 @@ message(STATUS "Adding safe-cstring at source path ${SOURCE_PATH}")
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO essenius/safe-cstring
-    REF 081e8eb4903ba4191464afedd7306c6eaf2ddac6
-    SHA512 d88dfd28af833d8f6b00cf39e457725f17ab6f128ba2b1f86e21c313506d3a2045bcc49dedc12e90966c4b37f2fee27c1e85ffff3456b515f4485561f9827341
+    REF "v0.6.3"
+    SHA512 367624bf324b2497b563b86380a6642b0f869de3c80cce0fded8f0008522ba44e69d50da149825d027664810357d2e66270c70031f1b35c6d71b651cadd26666
     HEAD_REF main
 )
 
