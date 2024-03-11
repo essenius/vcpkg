@@ -1,6 +1,6 @@
 {
     "name": "magneto-sensor",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "A driver for HMC5883L and QMC5883L magneto-sensors",
     "homepage": "https://github.com/essenius/MagnetoSensor",
     "license": "Apache-2.0",
@@ -19,5 +19,5 @@
         "host": false
       }
     ]
-  }
+}
   
