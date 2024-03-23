@@ -3,8 +3,8 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO essenius/esp32-mock
-    REF "v0.1.3"
-    SHA512 d8cc866305717e509f2817af4ac3338baf95a288f2c72f5a9c95915611a2a12be95af2655557f1e4c949c3cda8bef3fca8a7cd33845c98e5c6e0e7b98d07a728
+    REF "v0.1.4"
+    SHA512 ae07ce79f41cf4c12648f1f4f8906b39dc5ac87c00df5fdb50e61df8e24af6ae5823133b38c4c337b878d205ad85ce26ea6b3f4068a18a7dca02d86cf36be98e
     HEAD_REF main
 )
 
