@@ -1,0 +1,7 @@
+{
+  "name": "arduino-json",
+  "version": "7.0.4",
+  "description": "JSON library for Arduino and embedded C++. Simple and efficient.",
+  "homepage": "https://arduinojson.org/",
+  "license": "MIT"
+}
