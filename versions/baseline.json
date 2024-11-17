@@ -1,7 +1,7 @@
 {
   "default": {
     "arduino-json": { "baseline": "7.0.4", "port-version": 0 },
-    "ellipse-fit": { "baseline": "0.2.3", "port-version": 0 },
+    "ellipse-fit": { "baseline": "0.2.4", "port-version": 0 },
     "esp32-mock": { "baseline": "0.1.10", "port-version": 0 },
     "magneto-sensor": { "baseline": "0.0.6", "port-version": 0 },
     "rix-matrix": { "baseline": "0.2.5", "port-version": 0 },

@@ -1,6 +1,6 @@
 {
     "name": "ellipse-fit",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "description": "Fit a series of data points to an ellipse",
     "homepage": "https://github.com/essenius/Matrix",
     "license": "Apache-2.0",
