@@ -29,7 +29,12 @@
         "version": "0.2.4",
         "port-version": 0,
         "git-tree": "e1c4a7660a066e04d4f0ee029239fcc359f4ee34"
-      }     
+      },
+      {
+        "version": "0.2.5",
+        "port-version": 0,
+        "git-tree": ""
+      }      
     ]
   }
   
