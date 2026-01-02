@@ -1,6 +1,6 @@
 {
     "name": "esp32-mock",
-    "version": "0.1.16",
+    "version": "0.1.17",
     "description": "Mock library to test esp32 applications without an esp32",
     "homepage": "https://github.com/essenius/esp32-mock",
     "license": "Apache-2.0",
